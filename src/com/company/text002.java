@@ -7,7 +7,7 @@ package com.company;
 
 public class text002 {
     public static void main(String[] args) {
-        System.out.println(reverse(123456789));
+        System.out.println(reverse(1234321));
     }
 
     /**
