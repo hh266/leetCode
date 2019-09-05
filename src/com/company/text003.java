@@ -7,7 +7,7 @@ package com.company;
  */
 public class text003 {
     public static void main(String[] args) {
-        System.out.println(isPalindrome(1221));
+        System.out.println(isPalindrome(-121));
     }
 
     /**
@@ -16,17 +16,18 @@ public class text003 {
      * @return
      */
     public static boolean isPalindrome(int x) {
-        if(x < 0) return false;
-        if(x >= 0 && x<10) return true;
+        if(x < 0) return false;                 //负数直接false
 
+        if(x >= 0 && x<10) return true;         //个位数直接true
+
+        int temp = x;
         int y = 0;
-        while (x != 0){
+        while (x != 0){                         //反转过程 参考整数反转 不需要考虑溢出
             int pop = x % 10;
             y = y * 10 +  pop;
             x = (x - pop) / 10;
         }
 
-
-        return x == y;
+        return temp == y;
     }
 }
