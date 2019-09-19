@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="date 20190916 最长公共前缀">
-      <change afterPath="$PROJECT_DIR$/src/com/company/testClass/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/text007.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +135,7 @@
       <workItem from="1568549307377" duration="2095000" />
       <workItem from="1568721442752" duration="1794000" />
       <workItem from="1568812052470" duration="5636000" />
-      <workItem from="1568898680278" duration="7144000" />
+      <workItem from="1568898680278" duration="7385000" />
     </task>
     <task id="LOCAL-00001" summary="date 20190903 两数之和">
       <created>1567524628371</created>
@@ -190,7 +186,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568816496881</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="date 20190919 合并两个有序链表">
+      <created>1568906691928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568906691928</updated>
+    </task>
+    <task id="LOCAL-00009" summary="date 20190916 最长公共前缀">
+      <created>1568906779671</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568906779671</updated>
+    </task>
+    <task id="LOCAL-00010" summary="date 20190916 最长公共前缀">
+      <created>1568906809145</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568906809145</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +230,7 @@
     <MESSAGE value="date 20190903 两数之和" />
     <MESSAGE value="date 20190904 整数反转" />
     <MESSAGE value="date 20190906 罗马数字转整数" />
+    <MESSAGE value="date 20190919 合并两个有序链表" />
     <MESSAGE value="date 20190916 最长公共前缀" />
     <option name="LAST_COMMIT_MESSAGE" value="date 20190916 最长公共前缀" />
   </component>
