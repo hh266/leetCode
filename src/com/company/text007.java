@@ -66,7 +66,5 @@ public class text007 {
             l1.next = this.mergeTwoLists(l2, l1.next);
             return l1;
         }
-
     }
-
 }

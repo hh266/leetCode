@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="date 20190904 整数反转">
-      <change afterPath="$PROJECT_DIR$/src/com/company/text004.java" afterDir="false" />
+    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="date 20190916 最长公共前缀">
+      <change afterPath="$PROJECT_DIR$/src/com/company/testClass/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/text007.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +11,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leetCode" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,43 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.text004">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="leetCode" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="text001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.text001" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="text002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.text002" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.text007">
     <configuration name="text003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.text003" />
       <module name="leetCode" />
@@ -103,13 +71,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="text005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.text005" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.text006" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text007" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.text007" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.text007" />
+        <item itemvalue="Application.text006" />
+        <item itemvalue="Application.text005" />
         <item itemvalue="Application.text004" />
         <item itemvalue="Application.text003" />
-        <item itemvalue="Application.text002" />
-        <item itemvalue="Application.text001" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +134,12 @@
       <workItem from="1567524378971" duration="546000" />
       <workItem from="1567608284651" duration="709000" />
       <workItem from="1567686096593" duration="2152000" />
-      <workItem from="1567862558589" duration="6227000" />
+      <workItem from="1567862558589" duration="7048000" />
+      <workItem from="1568122145472" duration="3955000" />
+      <workItem from="1568549307377" duration="2095000" />
+      <workItem from="1568721442752" duration="1794000" />
+      <workItem from="1568812052470" duration="5636000" />
+      <workItem from="1568898680278" duration="7144000" />
     </task>
     <task id="LOCAL-00001" summary="date 20190903 两数之和">
       <created>1567524628371</created>
@@ -157,7 +169,28 @@
       <option name="project" value="LOCAL" />
       <updated>1567691863973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="date 20190906 罗马数字转整数">
+      <created>1567955258144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567955258145</updated>
+    </task>
+    <task id="LOCAL-00006" summary="date 20190916 最长公共前缀">
+      <created>1568722773306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568722773306</updated>
+    </task>
+    <task id="LOCAL-00007" summary="date 20190916 最长公共前缀">
+      <created>1568816496881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568816496881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +212,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="date 20190903 两数之和" />
     <MESSAGE value="date 20190904 整数反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="date 20190904 整数反转" />
+    <MESSAGE value="date 20190906 罗马数字转整数" />
+    <MESSAGE value="date 20190916 最长公共前缀" />
+    <option name="LAST_COMMIT_MESSAGE" value="date 20190916 最长公共前缀" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,7 +224,23 @@
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/text006.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/text006.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="s.indexOf(&quot;{}&quot;)" language="JAVA" />
+        <watch expression="s.replace(&quot;{}&quot;,&quot;&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
