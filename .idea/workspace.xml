@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="" />
+    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="date 20190916 最长公共前缀">
+      <change afterPath="$PROJECT_DIR$/src/com/company/text009.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.text007">
-    <configuration name="text003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.text003" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="text004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.text004" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.text009">
     <configuration name="text005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.text005" />
       <module name="leetCode" />
@@ -106,13 +83,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="text008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.text008" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text009" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.text009" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.text009" />
+        <item itemvalue="Application.text008" />
         <item itemvalue="Application.text007" />
         <item itemvalue="Application.text006" />
         <item itemvalue="Application.text005" />
-        <item itemvalue="Application.text004" />
-        <item itemvalue="Application.text003" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +138,9 @@
       <workItem from="1568549307377" duration="2095000" />
       <workItem from="1568721442752" duration="1794000" />
       <workItem from="1568812052470" duration="5636000" />
-      <workItem from="1568898680278" duration="7385000" />
+      <workItem from="1568898680278" duration="8000000" />
+      <workItem from="1568990995409" duration="4711000" />
+      <workItem from="1569061747575" duration="6859000" />
     </task>
     <task id="LOCAL-00001" summary="date 20190903 两数之和">
       <created>1567524628371</created>
@@ -207,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568906809145</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="date 20190916 最长公共前缀">
+      <created>1568906898826</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568906898826</updated>
+    </task>
+    <task id="LOCAL-00012" summary="date 20190920 “气球” 的最大数量">
+      <created>1569063151171</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569063151171</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +251,8 @@
     <MESSAGE value="date 20190906 罗马数字转整数" />
     <MESSAGE value="date 20190919 合并两个有序链表" />
     <MESSAGE value="date 20190916 最长公共前缀" />
-    <option name="LAST_COMMIT_MESSAGE" value="date 20190916 最长公共前缀" />
+    <MESSAGE value="date 20190920 “气球” 的最大数量" />
+    <option name="LAST_COMMIT_MESSAGE" value="date 20190920 “气球” 的最大数量" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,8 +276,10 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="s.indexOf(&quot;{}&quot;)" language="JAVA" />
-        <watch expression="s.replace(&quot;{}&quot;,&quot;&quot;)" language="JAVA" />
+        <watch expression="s.substring(0,indexLeft)" language="JAVA" />
+        <watch expression="new StringBuffer(s.substring(indexLeft+1, indexRight)).reverse().toString()" language="JAVA" />
+        <watch expression="s.substring(indexRight+1)" language="JAVA" />
+        <watch expression="s" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
