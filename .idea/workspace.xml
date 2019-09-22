@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="date 20190916 最长公共前缀">
-      <change afterPath="$PROJECT_DIR$/src/com/company/text009.java" afterDir="false" />
+    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/text010.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,20 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.text009">
-    <configuration name="text005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.text005" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.text010">
     <configuration name="text006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.text006" />
       <module name="leetCode" />
@@ -109,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="text010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.text010" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.text010" />
         <item itemvalue="Application.text009" />
         <item itemvalue="Application.text008" />
         <item itemvalue="Application.text007" />
         <item itemvalue="Application.text006" />
-        <item itemvalue="Application.text005" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,8 @@
       <workItem from="1568812052470" duration="5636000" />
       <workItem from="1568898680278" duration="8000000" />
       <workItem from="1568990995409" duration="4711000" />
-      <workItem from="1569061747575" duration="6859000" />
+      <workItem from="1569061747575" duration="10285000" />
+      <workItem from="1569140227754" duration="1922000" />
     </task>
     <task id="LOCAL-00001" summary="date 20190903 两数之和">
       <created>1567524628371</created>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569063151171</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="date 20190921  删除排序数组中的重复项">
+      <created>1569069916438</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569069916438</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +260,8 @@
     <MESSAGE value="date 20190919 合并两个有序链表" />
     <MESSAGE value="date 20190916 最长公共前缀" />
     <MESSAGE value="date 20190920 “气球” 的最大数量" />
-    <option name="LAST_COMMIT_MESSAGE" value="date 20190920 “气球” 的最大数量" />
+    <MESSAGE value="date 20190921  删除排序数组中的重复项" />
+    <option name="LAST_COMMIT_MESSAGE" value="date 20190921  删除排序数组中的重复项" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
