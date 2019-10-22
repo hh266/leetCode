@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="date 20190924  搜索插入位置">
-      <change afterPath="$PROJECT_DIR$/src/com/company/text013.java" afterDir="false" />
+    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/testClass/text014.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +24,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1QKaLGOkNc9WFieAJpxhrtb9liO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -32,6 +40,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,7 +157,8 @@
       <workItem from="1569326493169" duration="2879000" />
       <workItem from="1569590839881" duration="10385000" />
       <workItem from="1570630708583" duration="1329000" />
-      <workItem from="1571532265048" duration="798000" />
+      <workItem from="1571532265048" duration="3583000" />
+      <workItem from="1571750960054" duration="1819000" />
     </task>
     <task id="LOCAL-00001" summary="date 20190903 两数之和">
       <created>1567524628371</created>
@@ -255,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569336687426</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="解数独">
+      <created>1571533135015</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571533135015</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +301,8 @@
     <MESSAGE value="date 20190921  删除排序数组中的重复项" />
     <MESSAGE value="date 20190922  移除元素" />
     <MESSAGE value="date 20190924  搜索插入位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="date 20190924  搜索插入位置" />
+    <MESSAGE value="解数独" />
+    <option name="LAST_COMMIT_MESSAGE" value="解数独" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
