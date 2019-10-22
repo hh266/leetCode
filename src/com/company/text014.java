@@ -1,4 +1,4 @@
-package com.company.testClass;
+package com.company;
 
 /**
  /**
