@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/testClass/text014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/test015.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/text014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/text014.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +160,8 @@
       <workItem from="1569590839881" duration="10385000" />
       <workItem from="1570630708583" duration="1329000" />
       <workItem from="1571532265048" duration="3583000" />
-      <workItem from="1571750960054" duration="1819000" />
+      <workItem from="1571750960054" duration="2636000" />
+      <workItem from="1571923843904" duration="1664000" />
     </task>
     <task id="LOCAL-00001" summary="date 20190903 两数之和">
       <created>1567524628371</created>
@@ -272,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571533135015</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="122. 买卖股票的最佳时机 II">
+      <created>1571752807144</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1571752807144</updated>
+    </task>
+    <task id="LOCAL-00018" summary="122. 买卖股票的最佳时机 II">
+      <created>1571752913131</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571752913131</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +319,8 @@
     <MESSAGE value="date 20190922  移除元素" />
     <MESSAGE value="date 20190924  搜索插入位置" />
     <MESSAGE value="解数独" />
-    <option name="LAST_COMMIT_MESSAGE" value="解数独" />
+    <MESSAGE value="122. 买卖股票的最佳时机 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="122. 买卖股票的最佳时机 II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
