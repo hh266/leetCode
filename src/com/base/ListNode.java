@@ -1,4 +1,4 @@
-package com.company.testClass;
+package base;
 
 public class ListNode {
     public int val;

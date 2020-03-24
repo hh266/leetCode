@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.testClass.ListNode;
+import base.ListNode;
 
 /**
  * leetcode 题库第二题:020有效的括号
