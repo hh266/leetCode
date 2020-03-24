@@ -22,5 +22,6 @@ public class test018 {
                 return right;
             }
         }
+        return  1;
     }
 }
