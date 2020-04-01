@@ -6,7 +6,17 @@
  */
 public class N0003LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
-
-        return 0;
+        int len = s.length();
+        int maxLen = 0;
+        for(int i = 0; i<len; i++){
+            for (int j = i; j<len; j++){
+                if(s.substring(i,j).indexOf(s.charAt(j)) == -1){
+                    maxLen = maxLen < (j - i + 1) ? (j - i + 1) : maxLen;
+                }else{
+                    break;
+                }
+            }
+        }
+        return maxLen;
     }
 }
