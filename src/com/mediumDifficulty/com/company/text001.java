@@ -5,6 +5,8 @@
  */
 package com.company;
 
+import java.util.HashMap;
+
 public class text001 {
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
@@ -24,6 +26,23 @@ public class text001 {
             for(int j = i+1; j <nums.length; j++){
                 if(nums[i] + nums[j] == target) return new int[] {i,j};
             }
+        }
+        throw new IllegalArgumentException("No two sum solution");
+    }
+
+    /**
+     * 一遍哈希表
+     * @param nums
+     * @param target
+     * @return
+     */
+    public static int[] twoSum1(int[] nums, int target) {
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i< nums.length; i++){
+            int flag = target - nums[i];
+            if(map.containsKey(flag))
+                return new int[] {map.get(flag), i};
+            map.put(nums[i],i);
         }
         throw new IllegalArgumentException("No two sum solution");
     }
