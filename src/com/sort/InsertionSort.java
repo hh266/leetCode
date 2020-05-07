@@ -1,4 +1,4 @@
-package sort;
+package com.sort;
 
 /**
  * 插入排序
@@ -9,8 +9,8 @@ package sort;
 public class InsertionSort {
     public static int[] insertSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
-            int temp = arr[i];
-            for (int j = i; temp < arr[j - 1] && j > 0; j--) {
+            for (int j = i; j > 0 && arr[i] < arr[j - 1]; j--) {
+                int temp = arr[i];
                 arr[j] = arr[j - 1];
                 arr[j - 1] = temp;
             }
