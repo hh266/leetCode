@@ -7,9 +7,9 @@ package com.sort;
 public class test {
     public static void main(String[] args) throws Exception {
         int[] testArr = {5, 7, 8, 9, 4, 4, 13, 2, 12, 11};
-        CountingSort countingSort = new CountingSort();
 
-        int[] resArr = countingSort.sort(testArr);
+
+        int[] resArr = InsertionSort.insertSort(testArr);
 
         for (int i : resArr) {
             System.out.println(i);
