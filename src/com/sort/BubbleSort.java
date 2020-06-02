@@ -2,6 +2,7 @@ package com.sort;
 
 /**
  * 冒泡排序
+ *
  * @author zch
  * @date 2020/5/6 16:19
  */
@@ -13,11 +14,11 @@ public class BubbleSort {
             //比较第j个元素与j+1元素的大小
             //第一轮排序后数组的最后一个元素是最大的，第二轮排序后最后两个元素依次最大
             //所有第二轮循环的次数是 arr.length-1-i
-            for (int j = 0; j < arr.length-1-i; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+            for (int j = 1; j < arr.length - i; j++) {
+                if (arr[j - 1] > arr[j]) {
+                    int temp = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j] = temp;
                 }
             }
         }
