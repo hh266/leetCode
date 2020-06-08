@@ -9,33 +9,28 @@ import java.util.Arrays;
  */
 public class HeapSort {
 
-    public int[] sort(int[] arr) {
-        // 对 arr 进行拷贝，不改变参数内容
-        //int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
-
+    public void sort(int[] arr) {
         int len = arr.length;
 
-        buildMaxHeap(arr, len);
+        //建立最大顶堆
+        for (int i = (int) Math.floor(len / 2); i >= 0; i--) {
+            heapify(arr, i, len);
+        }
 
+        //把最大值存在数组末尾，重新调整堆
         for (int i = len - 1; i > 0; i--) {
             swap(arr, 0, i);
             len--;
             heapify(arr, 0, len);
         }
-        return arr;
     }
 
     /**
-     *
+     * 调整堆
      * @param arr
+     * @param i
      * @param len
      */
-    private void buildMaxHeap(int[] arr, int len) {
-        for (int i = (int) Math.floor(len / 2); i >= 0; i--) {
-            heapify(arr, i, len);
-        }
-    }
-
     private void heapify(int[] arr, int i, int len) {
         int left = 2 * i + 1;
         int right = 2 * i + 2;
@@ -66,5 +61,4 @@ public class HeapSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
 }
