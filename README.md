@@ -37,24 +37,8 @@
 ## 练习：
 
 - https://leetcode-cn.com/problems/reverse-linked-list/
-
-  ```java
-  class Solution {
-      public ListNode reverseList(ListNode head) {
-          ListNode reverseHead = null;
-          while(head != null){
-              ListNode temp = new ListNode(head.val, head.next);
-              head = head.next;
-              temp.next = reverseHead.next;
-              reverseHead.next = temp;
-          }
-          return reverseHead.next;
-  
-      }
-  }
-  ```
-
-  
-
-- 
+- https://leetcode-cn.com/problems/swap-nodes-in-pairs/
+- https://leetcode-cn.com/problems/linked-list-cycle/
+- https://leetcode-cn.com/problems/linked-list-cycle-ii/
+- https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
 
