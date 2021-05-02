@@ -42,3 +42,6 @@
 - https://leetcode-cn.com/problems/linked-list-cycle-ii/
 - https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
 
+# 堆栈（Stack）、队列（queue）
+
+- https://leetcode-cn.com/problems/valid-parentheses/

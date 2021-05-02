@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="反转链表">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/N0024SwapNodesinPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/N0020ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sort/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sort/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +60,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall-tiny" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.test017">
-    <configuration name="test017" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.test017" />
+  <component name="RunManager" selected="Application.N0020ValidParentheses">
+    <configuration name="N0020ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.N0020ValidParentheses" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="text008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.text008" />
+    <configuration name="test017" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.test017" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -129,19 +134,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.text008" />
       <item itemvalue="Application.text009" />
       <item itemvalue="Application.text010" />
       <item itemvalue="Application.text012" />
       <item itemvalue="Application.test017" />
+      <item itemvalue="Application.N0020ValidParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.N0020ValidParentheses" />
         <item itemvalue="Application.test017" />
         <item itemvalue="Application.text012" />
         <item itemvalue="Application.text010" />
         <item itemvalue="Application.text009" />
-        <item itemvalue="Application.text008" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +187,8 @@
       <workItem from="1572396965001" duration="7000" />
       <workItem from="1572399268052" duration="248000" />
       <workItem from="1619704313590" duration="1918000" />
-      <workItem from="1619762923040" duration="5155000" />
+      <workItem from="1619762923040" duration="6242000" />
+      <workItem from="1619934548560" duration="4876000" />
     </task>
     <task id="LOCAL-00001" summary="date 20190903 两数之和">
       <created>1567524628371</created>
@@ -331,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619706349721</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="反转链表">
+      <created>1619878877724</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1619878877724</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,10 +379,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="反转链表" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619706360804">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1619950355140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619706360804" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619950355140" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1619970200825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619970200825" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619885677680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619885677680" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
