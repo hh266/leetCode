@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="反转链表">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/N0020ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="757a0a36-ce25-4a02-8bcc-f3739835e8d3" name="Default Changelist" comment="stack">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/N1720DecodeXoredArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sort/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sort/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall-tiny" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -188,7 +186,9 @@
       <workItem from="1572399268052" duration="248000" />
       <workItem from="1619704313590" duration="1918000" />
       <workItem from="1619762923040" duration="6242000" />
-      <workItem from="1619934548560" duration="4876000" />
+      <workItem from="1619934548560" duration="5288000" />
+      <workItem from="1620131055988" duration="3286000" />
+      <workItem from="1620306105546" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="date 20190903 两数之和">
       <created>1567524628371</created>
@@ -344,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619878877724</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="stack">
+      <created>1619970550221</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1619970550221</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,21 +383,38 @@
     <MESSAGE value="122. 买卖股票的最佳时机 II" />
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="反转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转链表" />
+    <MESSAGE value="stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1619950355140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619950355140" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1619970940442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619970940442" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1619970940441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619970940441" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1619970940441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619970940441" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1619970940442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619970940442" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1619970200825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619970200825" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619885677680">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619970554789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619885677680" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619970554789" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
